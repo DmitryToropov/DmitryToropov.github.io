@@ -24,10 +24,12 @@ body {
 }
 
 header {
+	width: 60px;
 	display: block;
 }
 
 footer {
+	width: 60px;
 	display: block;
 }
 
