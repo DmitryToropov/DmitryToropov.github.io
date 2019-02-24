@@ -23,6 +23,14 @@ body {
 	line-height: 135%;
 }
 
+header {
+	display: block;
+}
+
+footer {
+	display: block;
+}
+
 a {
 	color: #38484;
 	text-decoration: none;
