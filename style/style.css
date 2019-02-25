@@ -30,6 +30,11 @@ nav {
 	align-items: center;
 }
 
+section {
+	display: flex;
+	align-items: space-evenly;
+}
+
 footer {
 	height: 60px;
 	display: block;
