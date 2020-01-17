@@ -18,7 +18,9 @@ body {
 	font-size: 1em;
 	line-height: 135%;
 }
-
+.container{
+	background-color: #333333;
+}
 #p_prldr{
 	position: fixed;
 	left: 0;
