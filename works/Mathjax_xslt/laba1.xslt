@@ -30,7 +30,9 @@
                 </xsl:for-each>
                 <xsl:text disable-output-escaping="yes">}{</xsl:text>
                 <xsl:for-each select="строка/корень/строка/строка/низверх">
-                    <xsl:value-of select="строка[1]"/>
+                    <xsl:if test="строка[1]">
+                    \sum
+                    </xsl:if>
                 </xsl:for-each>
                 <xsl:text disable-output-escaping="yes">^</xsl:text>
                 <xsl:for-each select="строка/корень/строка/строка/низверх">
