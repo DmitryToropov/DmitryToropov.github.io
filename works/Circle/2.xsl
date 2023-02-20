@@ -12,7 +12,7 @@
         </html>
         </xsl:template>
 
-    <xsl:template match="root">
+    <xsl:template match="графика">
         <svg width="{@ширина}" height="{@высота}" xmlns="http://www.w3.org/2000/svg">
         <xsl:apply-templates />
       </svg>
